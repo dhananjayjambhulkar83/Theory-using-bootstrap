@@ -1,0 +1,262 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+   
+}
+
+/* header starts */
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/dd.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 10px solid #5385c1;
+}
+
+.header #my-nav{
+    background: none;
+    position: relative;
+    top: 25px;
+    border: 0;
+    font-size: 16px;
+}
+
+#nav-brand {
+    font-weight: 500;
+    color: #fff;
+}
+
+#burger a{
+    color: #fff;
+    font-weight: 100;
+}
+
+.navbar-header .navbar-toggle .icon-bar{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.banner{
+    position: relative;
+    top: 140px;
+    color: #fff;
+}
+
+.banner h1{
+    font-weight: 200;
+    font-size: 62px;
+}
+
+.banner p{
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/*header ends*/
+
+/*three section starts */
+
+.three-section{
+    padding: 100px 0px;
+}
+
+.three-section .box{
+    padding: 0px 50px;
+}
+
+.three-section .mid{
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: #dbdbdb;
+}
+
+.three-section .box h5{
+    color: #5385c1;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 32px;
+
+}
+
+.three-section .box p{
+    color: gray;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+.three-section .box .my-button{
+    width: 100px;
+    height: 40px;
+    background-color: #5385c1;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin: 40px 0px;
+}
+
+/*three-section ends */
+
+/*team-section starts */
+.team{
+    width: 100%;
+    background-color: #5385c1;
+    padding: 100px 0px;
+    color: #fff;
+}
+
+#team-upper h1{
+    font-weight: 200;
+    font-size: 42px;
+}
+
+#team-upper p{
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.person{
+    margin-top: 70px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    height: 300px;
+
+}
+
+.person img{
+    margin-top: 20px;
+}
+
+.person h5{
+    font-weight: 200;
+    margin-top: 20px;
+
+}
+
+.person p{
+    font-weight: 100;
+}
+ 
+
+/*team-section ends */
+
+/* two-section starts */
+
+.two-section{
+    padding: 100px 0px;
+}
+
+#two-section-upper h1{
+    color: #698fc3;
+    font-weight: 200;
+    font-size: 45px;
+
+}
+
+#two-section-upper p{
+    color: #bbbbbd;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.two-section .two{
+    margin-top: 60px;
+}
+
+.two-section .two h5{
+    font-size: 22px;
+    font-weight: 200;
+    color:#698fc3 ;
+}
+
+.two-section .two p{
+    color:#bbbbbd ;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 25px;
+}
+
+.two-section button{
+    width: 100px;
+    height: 40px;
+    background-color: #5385c1;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-top: 40px;
+}
+/* two-section ends */
+
+/*footer starts */
+.footer .container{
+    border-top: 1px solid #dbdbdb;
+}
+
+.first p{
+    font-weight: 100;
+    margin: 30px 0px;
+}
+
+.social{
+    margin-top: 30px ;
+}
+
+.social a{
+    padding: 10px;
+    color: #5385c1;
+}
+
+/*footer starts */
+
+
+/*media querry starts */
+
+@media only screen and (max-width:768px){
+    .banner h1{
+        font-size: 40px;
+    }
+    
+    .banner p{
+        font-size: 14px;
+      
+    }
+
+    .three-section .mid{
+        border: 0;
+    }
+
+    #two-section-upper h1{
+        font-size: 38px;
+    }
+    
+    #two-section-upper p{
+        font-size: 14px;
+    }
+
+    .first p{
+        font-size: 12px;
+    }
+    
+    .social a{
+       font-size: 10px;
+       padding: 7px;
+    }
+
+}
+
+@media only screen and (max-width:321px){
+    .first p{
+        font-size: 7px;
+       }
+
+}
+
+
